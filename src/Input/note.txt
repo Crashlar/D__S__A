@@ -29,3 +29,77 @@ hyrarcy level
         ?:	Ternary conditional	Right
         = += -= *= /= %= &= ^= |= <<= >>=	Assignment and compound assignment	Right
         ,	Comma	Left
+
+
+
+ Taking Input in C++
+➤ Using cin for Basic Input
+C++ leverages the standard input stream std::cin to receive data from the user.
+
+
+    int age;
+    std::cin >> age;
+This reads an integer input and stores it in age.
+
+➤ Reading Multiple Values
+    int x, y;
+    std::cin >> x >> y;  // Accepts two integers separated by space or newline
+➤ Strings and Common Pitfall
+While cin reads strings without spaces, to read full lines (like names or sentences), use getline():
+
+    std::string name;
+    std::getline(std::cin, name);
+⚠️ If getline() is used after cin, make sure to flush the newline character:
+
+    std::cin.ignore();  // Clears leftover newline from input buffer
+
+🔹 2. Operator Precedence & Associativity
+C++ has a rich set of operators. Understanding which operator is evaluated first is crucial when expressions contain multiple operators.
+
+🧠 Operator Precedence Table (Top 10)
+Precedence	Operator(s)	Associativity	Description
+        1 (Highest)	::	None	Scope resolution
+        2	++ -- () []	Left-to-right	Postfix
+        3	+ - ! ~ * &	Right-to-left	Unary
+        4	* / %	Left-to-right	Multiplication/Division
+        5	+ -	Left-to-right	Addition/Subtraction
+        6	<< >>	Left-to-right	Bitwise Shift
+        7	< <= > >=	Left-to-right	Relational
+        8	== !=	Left-to-right	Equality
+        9	&&	Left-to-right	Logical AND
+
+💡 Best Practice: Always use parentheses to ensure clarity and avoid relying solely on operator precedence.
+
+🧪 Example:
+
+    int result = 10 + 5 * 2;  // Multiplication happens before addition => 10 + (5*2) = 20
+
+🔹 3. Type Casting in C++
+
+When different data types are mixed in expressions, type conversion plays a key role. C++ offers both implicit and explicit casting.
+
+➤ Implicit Type Conversion
+Occurs automatically when operands differ in type.
+
+int a = 5;
+float b = 2.5;
+float result = a + b;  // `a` is promoted to float
+
+➤ Explicit Type Casting (Manual)
+C-style Cast:
+
+    float result = (float) a / b;
+
+C++-style Cast (Preferred):
+
+    float result = static_cast<float>(a) / b;
+
+🧠 C++ Cast Types
+Cast Type	Purpose
+static_cast	Normal conversions (int ↔ float, base ↔ derived)
+dynamic_cast	Runtime-safe casting for polymorphic types
+const_cast	Adds or removes const
+reinterpret_cast	Bitwise reinterpretation (unsafe, low-level)
+
+⚠️ Avoid reinterpret_cast unless you're sure of what you're doing.
+
