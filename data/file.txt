@@ -1,0 +1,9 @@
+Properties of getting Remainder
+if a < b -> a % b = a
+a % (-b)  = a % b 
+(-a) % b = -(a % b )
+(-a) % (-b) = (-a) % b
+
+variables are starting is not allow with ! @ # % ^ & * ( ) - + .= / | \ ; : '  " and numbers and datatypes but start with underscore like _int is allow 
+
+

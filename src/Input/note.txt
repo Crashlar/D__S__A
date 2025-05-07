@@ -1,0 +1,31 @@
+typecast 
+'''
+    int x ;
+    float y ;
+
+    y= (float)x;
+    cout << y ;
+ 
+'''
+
+hyrarcy level 
+    - left to right 
+
+
+        Operator	Name	Associativity
+        () [] -> .	Function call, Subscript, Member access	Left
+        ++ --	Increment/Decrement	Right
+        ! ~ - +	Logical/Bitwise NOT, Unary plus/minus	Right
+        * / %	Multiplication, Division, Modulus	Left
+        + -	Addition, Subtraction	Left
+        << >>	Bitwise shift	Left
+        < <= > >=	Relational operators	Left
+        == !=	Equality operators	Left
+        &	Bitwise AND	Left
+        ^	Bitwise XOR	Left
+        |	Bitwise OR	Left
+        &&	Logical AND	Left
+        ||	Logical OR	Left
+        ?:	Ternary conditional	Right
+        = += -= *= /= %= &= ^= |= <<= >>=	Assignment and compound assignment	Right
+        ,	Comma	Left
