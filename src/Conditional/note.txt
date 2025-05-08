@@ -1,0 +1,21 @@
+To find modulus or absolute values 
+     abs() , negative()
+
+Conditional func
+    if
+    else
+    else if 
+
+For multiple Condition in one use 
+    && 
+    ||
+    or
+    and
+
+always use bracket don't depends on hierarcy  of order
+    (3 + 4 ) * 45 - (4 / 5)
+
+better understanding in else-if go with showgrade.cpp
+
+
+    
