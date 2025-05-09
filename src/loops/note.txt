@@ -1,0 +1,56 @@
+What and Why -
+    koi bhi multiple times karni ho jo ek pattern se connected ho 
+    
+loops
+     for ( initialization; test condition; updation) { 
+
+     // body of for loop
+
+    }
+            // check 
+            // inside loop 
+            // increment / decrement
+            // repeat
+
+    Initialization: 
+        Initialize the loop variable to some initial value.
+
+    Test Condition:
+        This specifies the test condition. If the condition evaluates to true, then body of the loop is executed, and loop variable is updated according to update expression. If evaluated false, loop is terminated.
+
+    Update Expression: 
+        After executing the loop body, this expression increments/decrements the loop variable by some value.
+
+    Note:
+        The loop variable can also be declared in the initialization section but the scope of the loop variables that are declared in the initialization section is limited to the for loop block.
+
+
+While loop 
+    while (condition) {
+    // Body of the loop
+    update expression
+    }
+
+    The various parts of the While loop are:
+
+    Condition: 
+        The loop executes its body till this condition remains true.
+    Update Expression:
+        Update the value of loop variable to make it closer to the termination condition.
+    Body:   
+        It is a group of statement that will be executed till the condition remains true.
+      
+
+do-while 
+    do {
+        // Body of the loop
+        // Update expression
+    } while (condition);
+    
+    When the program control first comes to the do…while loop, the body of the loop is executed first and then the test condition/expression is checked, unlike other loops where the test condition is checked first. Due to this property, the do…while loop is also called exit controlled or post-tested loop.
+
+    When the test condition is evaluated as true, the program control goes to the start of the loop and the body is executed once more.
+    
+    The above process repeats till the test condition is true.
+    
+    When the test condition is evaluated as false, the program controls move on to the next statements after the do…while loop.
