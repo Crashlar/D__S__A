@@ -1,0 +1,11 @@
+switch syntax
+    -    switch(expression){
+            case expression1: 
+            do this
+            case expression2:
+            do this 
+            case expression3:
+            do this
+            as so on 
+        }
+
