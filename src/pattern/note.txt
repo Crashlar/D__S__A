@@ -3,7 +3,7 @@ Tips-
      start printing with small terms 
      end..
 
-     -Don't break the i , j structure
+     -Don't break the i , j structure if possible have you 
 
 Summarize - 
      1. Square/ rectangle ka structure (i -> 1 to n   j -> 1 to n )
