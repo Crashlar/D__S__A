@@ -1,0 +1,6 @@
+About - 
+   This is a live/doubt-solving class. Although I covered more questions during the session, I didn't add them to  this folder because they were relatively easy.
+
+True - 
+    if i put a negative number in while loop then iter not runs 
+
