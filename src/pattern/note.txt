@@ -1,0 +1,18 @@
+Tips-
+     break all in single single terms 
+     start printing with small terms 
+     end..
+
+     -Don't break the i , j structure
+
+Summarize - 
+     1. Square/ rectangle ka structure (i -> 1 to n   j -> 1 to n )
+     2. Triangle 
+          1. i -> 1 to n 
+               j -> 1 to i 
+          2. i -> 1 to n 
+               j -> 1 to n + 1 - i 
+          3. i -> 1 to n 
+               j -> 1 to n - i 
+               k ->  1 to i   
+     3. Maths -> use brain power 
