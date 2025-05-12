@@ -13,5 +13,6 @@ Syntax-
     }
 
 Builtin Function    
-    - min
-    - max 
+    - min()
+    - max()
+    
