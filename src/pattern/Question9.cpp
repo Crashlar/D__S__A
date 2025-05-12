@@ -5,9 +5,9 @@ int main(){
     int count = 4;
     for (int i = 1; i <= count  ; i++ )
     {
-        for (int j = 1; j<= count; j++)
+        for (int j = i; j>= 1; j--)
         {
-            cout << i << " ";
+            cout << j << " ";
      
 
         }
@@ -18,3 +18,12 @@ int main(){
     
     return 0;
 }
+
+
+// Input: n = 4
+
+// Output:
+// 1
+// 2 1
+// 3 2 1
+// 4 3 2 1

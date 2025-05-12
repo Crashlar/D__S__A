@@ -7,7 +7,7 @@ int main(){
     {
         for (int j = 1; j<= count; j++)
         {
-            cout << i << " ";
+            cout << "*" ;
      
 
         }
@@ -18,3 +18,12 @@ int main(){
     
     return 0;
 }
+
+
+// Sample Input : n = 4
+
+// Output :
+// ****
+// ****
+// ****
+// ****
