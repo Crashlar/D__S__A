@@ -1,0 +1,17 @@
+function - 
+    y = f(x) = x^2 + 3 
+        f(x) -> output
+        x^2 + 3 -> input
+
+What is int main()-
+    - main function always works firstly then others func 
+    - this is only once  created 
+
+Syntax- 
+    <void/int/float> function_name(int a  , int b , int c ){
+        function_body 
+    }
+
+Builtin Function    
+    - min
+    - max 
