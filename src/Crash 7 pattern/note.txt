@@ -16,3 +16,31 @@ Summarize -
                j -> 1 to n - i 
                k ->  1 to i   
      3. Maths -> use brain power 
+
+Common Pattern Categories : 
+     Category	                  Example	                    Key Logic
+     Rectangular	           ***** (5x5 square)	               Equal rows & columns
+     Right-Angled	            * → *****	                    Stars = Row No. (i)
+     Inverted	                 ***** → *	                    Stars = n - i
+     Pyramid	               Centered triangle	               Spaces + Stars
+     Diamond	               Pyramid + Inverted	               Split into 2 parts
+     Number-Based	          1 22 333                      	Print row number
+     Alphabet-Based	          A BB CCC	                         char('A' + i)
+
+
+ Step-by-Step Approach :
+     (1) Observe the Pattern
+          Count rows, columns, spaces, and symbols.
+          Check if it's growing/shrinking.
+
+     (2) Find Row-Column Formula
+          Relate i (row) and j (column) to the pattern.
+          Example:
+               Hollow Rectangle:
+                    Print * only at borders (i==0, i==n-1, j==0, j==m-1).
+
+     (3) Handle Spacing (if needed)
+          Use cout << " "; before stars for pyramids/diamonds.
+
+     (4) Test with Small n
+          Verify logic for n=3 or n=4 before scaling.
