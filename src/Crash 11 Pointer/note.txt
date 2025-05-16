@@ -1,0 +1,10 @@
+Null Pointer - 
+     good practice of using pointers
+     int* ptr1 = 0;
+     int* ptr1 = '\0';
+     int* ptr1 = NULL;
+
+     all output value are same 
+
+Double Pointer - 
+     used to store address of a single pointer 
