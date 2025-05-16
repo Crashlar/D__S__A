@@ -1,10 +1,117 @@
-Null Pointer - 
-     good practice of using pointers
-     int* ptr1 = 0;
-     int* ptr1 = '\0';
-     int* ptr1 = NULL;
 
      all output value are same 
 
 Double Pointer - 
      used to store address of a single pointer 
+
+
+Pointer- 
+     A pointer is a variable that stores the address of another variable. 
+     Create Pointer - 
+          data_type* variable_name 
+          <!--  A pointer can be declared in the same way as any other variable but with an asterisk symbol (*) -->
+
+Address-of Operator (&) : 
+     The & operator is used to obtain the memory address of a variable.
+     It creates a pointer that "points to" the variable's memory location.
+
+Dereference Operator (*) : 
+     The * operator is used to access the value stored at the memory address a pointer is pointing to.
+     It allows you to manipulate the value indirectly through the pointer.
+     
+Null Pointer - 
+     A NULL pointer is a pointer that does not point to any valid memory location but NULL. It is often used to initialize a pointer when you do not want it to point to any object.
+//    good practice of using pointers
+          int* ptr1 = 0;
+          int* ptr1 = '\0';
+          int* ptr1 = NULL;
+
+## Example of the Pointer assignment
+``` bash 
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int a = 10;
+    int b = 99;
+
+    int *ptr = &a;
+    cout << *ptr << endl;
+    
+    // Changing the address stored
+    ptr = &b;
+    cout << *ptr;
+    
+    return 0;
+}
+```
+[!image](https://media.geeksforgeeks.org/wp-content/uploads/pointers-in-c.png)
+
+
+Size of Pointer-
+     8 bytes for a 64-bit System
+     4 bytes for a 32-bit System
+
+
+Advantage of Using Pointer 
+     - Pointers are most efficient in handling arrays and other data structures.
+     - Pointers can return multiple values from a function through function arguments.
+     - Pointers can be used to reference a function and hence it enables passing of a function as an argument to another function.
+     - Pointers save a lot of space in storage memory by offering the use of pointer arrays to character strings.
+     - Pointers support dynamic memory allocation in Data Structure.
+     - Pointers enables a user to manipulate dynamic data structures such as linked lists, queues, stacks, and trees
+
+
+Chain of Pointers: 
+     - chain of pointer is created when we make a pointer to point to another pointer and it may continue further 
+     [!image](https://codedec.com/wp-content/uploads/2020/10/3-1.png)
+
+Passing address to Functions :
+     - We can pass the address of a variable as an argument to a function.
+     call by reference : 
+          The process of passing the addresses of variable to a function using pointer is called as call by reference
+     class by Value :
+          The process of passing the actual values of variables to a function is known as Call by Value
+          Example: Program to swap values of two variables using pointer operation: 
+               
+               ``` code 
+               #include <iostream>
+               using namespace std;  
+               void swap (int *x, int *y)  
+               {  
+               int temp;   
+               temp = *x;  
+               *x=*y;  
+               *y=temp;
+               }
+               // main function 
+               int main()  
+               {  
+               int x = 2;  
+               int y = 4;   
+               cout << ("x is %d and y is %d before swapping\n",x,y)<< endl;
+               swap(&x,&y);
+                    
+               cout << ("x is %d and y is %d after swapping\n",x,y);
+               return 0;
+               }  
+               ```
+Returning Pointers from Functions: 
+``` code
+     #include<stdio.h>
+     int *Large(int *, int *);
+     int main()
+     {
+     int a=5,b=10,*p;
+     p = Large(&a,&b);
+     
+     printf("Larger number between %d and %d is %d.",a,b,*p);
+     }
+     int *Large(int *x, int *y)
+     {
+     if(*x>*y)
+     return (x);
+     else
+     return (y);  
+     }
+```
