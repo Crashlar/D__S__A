@@ -1,0 +1,6 @@
+Today Checklist 
+    - Passing array to function 
+    - Dynamic allocation 
+    - Vectors in C++
+    - Operation on Vector 
+    - Problem on arrays and Two pointer
