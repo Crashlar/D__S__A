@@ -24,7 +24,6 @@ int main(){
     int size = sizeof(arr)/sizeof(arr[0]);
     // accessing the element of array in another functon 
     // updation , pass by value / reference 
-
     display(arr);
     change(arr);
     display(arr);

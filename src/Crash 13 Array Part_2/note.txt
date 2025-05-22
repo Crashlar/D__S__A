@@ -4,3 +4,33 @@ Today Checklist
     - Vectors in C++
     - Operation on Vector 
     - Problem on arrays and Two pointer
+
+
+Vector in C++
+    replacement of array
+    ploblem -
+        array has fixed size 
+        int arr[5] = { 1, 2 , 3,4,5}
+        if i want to change the size then it is possible to go to change in our code 
+    
+    Vector is Dynamic array that change our size when required
+    syntax- 
+        vector<int> arr; 
+    
+    function in Vector -
+        push_back -> intialize a value on the last box of vector 
+
+        pop_back -> delete a back box value
+        
+        size ->how many box filled already
+        
+        capacity -> how many box in vector 
+        
+        at -> know exact position value
+
+    
+Passing Vectors to function : 
+    vy value. Each time you pass , new vector is created if (&) is not passed to vector<int> v in function 
+
+    vector<int> &v 
+        this is point to same reference so the value is change in main function and not created new 
