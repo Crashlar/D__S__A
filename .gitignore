@@ -1,6 +1,6 @@
 .exe
 .vscode/
 bin/
-Lectures
+Lectures/
 *.exe
 *tempCodeRunnerFile.cpp
