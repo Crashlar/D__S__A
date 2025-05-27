@@ -1,0 +1,7 @@
+What -
+    Array is linear data Structure 
+Why - 
+    I want a table to make like dataframe
+
+Represtation of 2D array 
+    matrix , grid 
