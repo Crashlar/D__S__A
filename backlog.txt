@@ -1,3 +1,3 @@
-function - half
-pattern printing part 2 - full
-array part 3 - from 2:14:42 - end
+function - half + Task
+pattern printing part 2 - full + Task 
+array part 3 - from 2:14:42 - end + Task 
