@@ -2,4 +2,10 @@ Topics Name:
     - Basics 
     - Loops
     - conditional
-    
+    - Loops
+    - pattern
+    -  Function
+    - Pointer
+    - Array 
+    - 2D_Array
+    - String
