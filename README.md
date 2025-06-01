@@ -22,7 +22,7 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 Welcome to **DSA with C++**!  
 This repository contains comprehensive solutions and practice questions designed to help you master Data Structures and Algorithms (DSA). Whether you're preparing for coding interviews, competitive programming, or enhancing your problem-solving skills, this repository is your go-to resource.
 
@@ -30,7 +30,7 @@ This repository contains comprehensive solutions and practice questions designed
 
 ---
 
-## 🔥 Features
+##  Features
 - Organized question sets with multiple topics.
 - Clear directory structure for easy navigation.
 - Code solutions in C++.
@@ -39,7 +39,7 @@ This repository contains comprehensive solutions and practice questions designed
 
 ---
 
-## 📥 Installation & Setup
+##  Installation & Setup
 Clone the repository:
 ```bash
 git clone https://github.com/Crashlar/D__S__A.git
