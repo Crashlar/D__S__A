@@ -1,0 +1,38 @@
+2D Vectors
+
+    vector<vector<int> > v;
+    vector<vector<int> > v(m);  
+        m is size
+    vector<vector<int> > v(m , vector<int> (n));
+        m is rows
+        n is cols
+    vector<vector<int> > v(m , vector<int> (n , k ));
+        m is rows
+        n is cols
+        k is value in each box 
+
+Advantages of vectors over arrays
+    1. Increase your rows
+    2. Variable Columns
+
+    only possible in vector in box intialization
+        |   |
+        |   |   |
+        |   |   |   |
+        |   |   |
+
+Vector-
+    2D Vector are vector of vector
+
+Advantages of Vector- 
+    Passing of 2D arrays into Functions -> Problem 
+        Soln = We have to mention rows and cols every time
+
+
+Basic STL Functions in Vector
+    push_back()
+    pop_back()
+    begin()
+    end()
+    rbegin()
+    rend()
