@@ -5,3 +5,5 @@ Question3.cpp in folder Crash 15 2D_Array Part 1
 Questions all -> Crash 16 2D_Array Part_2
 2D_Array Part 3 and Questions All
 Questions of Crash 18 String
+Crash 19 string part 2 and Questions
+Live class Crash 20 
