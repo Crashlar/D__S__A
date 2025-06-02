@@ -1,0 +1,22 @@
+What are strings and Why are they used 
+    - 
+Declaration of strings and Taking input 
+    - string str = "Name";
+    cout << str;
+
+
+Built-in string
+    - size() / length() 
+    - push_back()   
+        only single character allow
+    - pop_back()
+        last character is deleted 
+    - (+) operator
+        append the character only not number 
+    - revese
+        // in #include<algorithm>
+    - substr()
+
+    - to_string()
+        Its convert integer to string
+    - etc
