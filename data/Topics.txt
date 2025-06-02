@@ -1,6 +1,5 @@
 Topics Name:
-    - Basics 
-    - Loops
+    - Basics
     - conditional
     - Loops
     - pattern
@@ -9,3 +8,16 @@ Topics Name:
     - Array 
     - 2D_Array
     - String
+    - Time complexity 
+    - Space complexity
+    - Sorting 
+        Bubble sort
+        Selection Sort
+        Insertion Sort
+    - Searching
+        Linear Search
+        Binary Search
+    - Recursion 
+    - Advanced Sorting 
+        Merge sort
+        Quick sort
