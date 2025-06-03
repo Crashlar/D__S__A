@@ -1,0 +1,19 @@
+Notation for Differnt types of Time Complexity 
+
+    Big O Notation 
+        O(n)
+            O(n+ k ) is = O(n)
+            always takes the highest power 
+        O(n^2)
+        O(logn)
+        O(2^n)
+        O(1)
+        Where n is usually size of array / data structure 
+
+Space Complexity
+    - Study of all extra space used in terms of given 'm' , 'n'
+    O(1)
+        constants 
+    O(n+m)
+    O(n*m)
+    
