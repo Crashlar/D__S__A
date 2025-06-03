@@ -3,3 +3,5 @@ bin/
 Lectures/
 *.exe
 *tempCodeRunnerFile.cpp
+.vscode/launch.json
+.vscode/tasks.json
