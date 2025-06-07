@@ -21,7 +21,7 @@ int main(){
         bool flag = true;
         for (int j = 0; j < str.size() - i - 1 ; j++) 
         {
-            if (str[j] > str[j+1]){
+            if (str[j] < str[j+1]){
                 // swap
                 swap(str[j], str[j+1]);
                 flag = false;
