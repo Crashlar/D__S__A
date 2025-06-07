@@ -1,0 +1,56 @@
+Sorting
+    -Selection sort Algorithm
+        arr[] = {5 , 3 , 1 , 4 , 2 }
+        1 , 3, 5 , 4 , 2 
+        1 , 2, 5 , 4 ,3 
+        1 , 2, 3, 4, 5
+        sorted  = 1 , 2, 3, 4, 5
+        steps-
+            array me min ko swap kar do 
+            n-1 total swaps
+            
+    -Time complexity and Space complexity
+        time complexity - O(n^2)
+        Space complexity - O(1)
+    -Stability
+        stable and unstable - use wiki 
+        
+        -usecases  
+            cost of swapping starting se 'k' minimun element out of n , if size of arrary is small 
+-Insertion sort Algorithm
+    arr[] = 5 , 3 , 1 , 4 , 2
+            5 | 3 , 1 , 4 , 2 
+            3 , 5 | 1 , 4 , 2
+            1 , 3 , 5 | 4 , 2 
+            1 , 3 , 4 , 5 | 2 
+            1 , 2 , 3 , 4 , 5 | 
+        start from second element first is already sorted if 3 is smaller than 5 than swap  
+        if 1 is smaller than 5 then swap then if 1 is smaller than 3 so swap each 
+        remaining element sorted accordinaly 
+            5 , 3 , 1 , 4 , 2 
+            3 , 5 , 1 , 4 , 2 
+            3 , 1 , 5 , 4 , 2 
+            1 , 3 , 5 , 4 , 2
+            1 , 3 , 4 , 5 , 2  
+            1 , 3 , 4 , 2 , 5
+            1 , 3 , 2 , 4 , 5 
+            1 , 2 , 3 , 4 , 5  
+        -code
+            for( int i = 0 ; i <= n -1 ; i++){
+                int j = i ; 
+                while ( j >= 0){
+                    if ( arr[j] >= arr[j-1]) break;
+                    if(arr[j] < arr[j-1]){
+                        swap(arr[j], arr[j-1]);
+                        j--;
+                    }
+                }
+            }
+
+Time complexity and Space complexity
+    Time complexity - O(n^2)
+    space complexity - O(1)
+Stability of both
+    only adjacent swap just like bubble sort 
+
+
