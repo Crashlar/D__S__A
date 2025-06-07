@@ -1,0 +1,10 @@
+which sorting technique is used here ? A player is sorting a deck of cards numbered from 1 to 52. She first picks one card then picks the next card and puts it after the first card if it is bigger orr before the first card if it is smaller , then she picks another card and puts it into its proper position.
+
+Ans - 
+    Insertion sort 
+
+Which of the following is not a stable sorting algorithm ? 
+Ans - 
+    Selection sorting 
+
+Question - Leetcode 169 

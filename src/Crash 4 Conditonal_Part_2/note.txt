@@ -1,11 +1,28 @@
 switch syntax
     -    switch(expression){
             case expression1: 
-            do this
+            // code
+            break; 
             case expression2:
-            do this 
+            code 
+            break;
             case expression3:
-            do this
+            // code
+            break;
             as so on 
         }
 
+
+What 
+     switch statement is a flow control statement that is used to execute the different blocks of statements based on the value of the given expression. It is an alternative to the long if-else-if ladder which provides an easy way to execute different parts of code based on the value of the expression.
+
+
+Working of switch case 
+    firstly match with case value then evaluate the case code if no any case matched then the default case automatic executed 
+
+Rules of Switch statement
+    case value must be int or char datatype
+    You can have as many case blocks as needed.
+    duplicate case value are not allowed in any situation 
+    A break statement is optional in each case.
+    

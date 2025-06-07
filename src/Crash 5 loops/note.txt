@@ -1,12 +1,15 @@
 What and Why -
+    sometimes there is a need to perform some operation more than once or (say) n number of times.
+    -(or)
     koi bhi multiple times karni ho jo ek pattern se connected ho 
     
 loops
      for ( initialization; test condition; updation) { 
 
-     // body of for loop
+     // code
 
     }
+        -steps of loop works 
             // check 
             // inside loop 
             // increment / decrement

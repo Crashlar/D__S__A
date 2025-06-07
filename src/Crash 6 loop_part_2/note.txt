@@ -1,3 +1,21 @@
 break
-    - stop when the condtion true 
-    - 
+    Syntax 
+        break;
+    stop when the condtion true 
+    A break statement is used when we want to terminate the running loop whenever any particular condition occurs. Whenever a break statement occurs loop breaks and stops executing.
+    The Break statement is used to exit from the loop constructs.
+    The break statement is usually used with the switch statement, and it can also use it within the while loop, do-while loop, or the for-loop.
+    When a break statement is encountered then the control is exited from the loop construct immediately.
+    Break statements uses switch and label statements.
+    Leftover iterations are not executed after the break statement.
+
+
+Continue 
+    Syntax
+        continue;
+    is used when we have to skip a particular iteration. Whenever we write continue statement the whole code after that statement is skipped and loop will go for next iteration.
+    The continue statement is not used to exit from the loop constructs.
+    The continue statement is not used with the switch statement, but it can be used within the while loop, do-while loop, or for-loop.
+    When the continue statement is encountered then the control automatically passed to the beginning of the loop statement.
+    label statements.	It does not use switch and label statements.
+    Leftover iterations can be executed even if the continue keyword appears in a loop.
