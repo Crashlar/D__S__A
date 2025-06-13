@@ -1,0 +1,31 @@
+What and Why 
+    arr[] = { 1 , 2, 4 , 5 , 9, 15 , 18 , 21};
+    target = 18 
+
+    // approach 1  linear Search 
+        // code
+        bool flag = false ; // target not present 
+        for ( int i = 0 ; i < n ; i++){
+            if(arr[i] == target ){
+                flag = true;
+                break;
+            }
+            // Time complexity O(n) 
+        }
+
+        if ( flag ) cout << "PResent";
+        else cout << "Absent"; 
+        
+    // Approach 2  binary search
+        Works only if array is sorted (noth ascending or descending)
+        Works on indeces
+        firstly maintain low_index , high_index
+        int mid = (low_index + high_index)/2
+
+        // thinking process
+        arr[] = { 1 , 2, 4 , 5 , 9, 15 , 18 , 21};
+        int mid  =( lo + hi )/  2
+        if ( arr[mid] == target ) return true ; 
+        if ( arr[mid] < target ) lo = mid + 1 ; 
+        if ( arr[mid] > target ) hi = mid - 1 ;   
+        
