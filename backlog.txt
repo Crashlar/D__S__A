@@ -2,9 +2,7 @@ function - half + Task //
 pattern printing part 2 - full + Task // 
 array part 3 - from 2:14:42 - end + Task 
 2D_Array Part 3 and Questions All
-Questions of Crash 18 String
 Crash 19 string part 2 and Questions
 Live class Crash 20 
-Question of Crash 22
 Problems on sorting Crash 25
 No More Backlog created and the abve topics will done before 30 June 2025‼️
