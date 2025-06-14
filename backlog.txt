@@ -1,8 +1,6 @@
-function - half + Task
-pattern printing part 2 - full + Task 
+function - half + Task // 
+pattern printing part 2 - full + Task // 
 array part 3 - from 2:14:42 - end + Task 
-Question3.cpp in folder Crash 15 2D_Array Part 1 
-Questions all -> Crash 16 2D_Array Part_2
 2D_Array Part 3 and Questions All
 Questions of Crash 18 String
 Crash 19 string part 2 and Questions
