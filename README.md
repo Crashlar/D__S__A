@@ -69,6 +69,8 @@ d__S__A/
 │   ├── Crash 3 Conditional/
 │   └── Crash 4 Conditional-...
 ├── .gitignore
+├──CONTIBUTING.md
+├──SECURITY.md
 ├── backlog.txt                                # backlog Topic
 ├── licence
 └── README.md                                  # Main overview
