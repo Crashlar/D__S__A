@@ -1,0 +1,12 @@
+What?
+    replacement of loops
+    function calling itself 
+
+What are Function Call
+
+
+// base 
+// kaam 
+// call 
+// kaam 
+// return 
