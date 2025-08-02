@@ -1,23 +1,29 @@
-<h1 align="center">Data Structure and Algorithm </h1>
-
+<h1 align="center">Data Structure and Algorithm</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C%2B%2B-green" />
-  <img src="https://img.shields.io/badge/License-MIT-blue" />]
+  <img src="https://img.shields.io/badge/License-MIT-blue" />
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Open%20Source-❤️-brightgreen" />
+  <img src="https://img.shields.io/badge/Stars-Join%20Us%20on%20GitHub-yellow" />
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen" />
   <img src="https://img.shields.io/badge/Built%20by-Crashlar-0078D7?style=flat&logo=github" />
   <img src="https://img.shields.io/badge/Maintained-Yes-orange" />
+  <img src="https://img.shields.io/badge/Quality-Reviewed%20Solutions-blueviolet" />
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-green" />
+  <img src="https://img.shields.io/badge/Community-Active-blue" />
+</p>
+
+<p align="center">
+  <strong>Empowering learners and professionals to master DSA through hands-on practice, curated explanations, and collaborative growth.</strong>
 </p>
 
 ---
@@ -45,33 +51,32 @@ Clone the repository:
 git clone https://github.com/Crashlar/D__S__A.git
 ```
 ---
-
 ## Directory Structure
 
 ```plaintext
-d__S__A/
-├── bin/                                        # ignore this 
+D__S__A/
+├── bin/                      # Build and binary files (ignored)
 ├── data/
 │   ├── important.txt
 │   └── Topics.txt
-├── Lectures/                                   # ignore this 
+├── Lectures/                 # Lecture notes and materials (ignored)
 ├── src/
 │   ├── Crash 1 Basics/
-|   |     ├──.cpp
-|   |     ├── .txt                              # description and suggestion
-|   |     ├── Question_numserial.cpp or .txt    # Solution of question
-|   |     └──...
+│   │   ├── *.cpp             # Source code files
+│   │   ├── *.txt             # Descriptions and suggestions
+│   │   ├── Question_*.cpp    # Solutions to questions
+│   │   └── ...
 │   ├── Crash 2 Input/
-|   |     ├── .cpp                              # Question added on specific topic 
-|   |     ├── .txt                              # description and suggestion
-|   |     ├── Question_numserial.cpp or .txt    # Solution of question
-|   |     └──...
+│   │   ├── *.cpp             # Topic-specific questions
+│   │   ├── *.txt             # Descriptions and suggestions
+│   │   ├── Question_*.cpp    # Solutions to questions
+│   │   └── ...
 │   ├── Crash 3 Conditional/
 │   └── Crash 4 Conditional-...
 ├── .gitignore
-├──CONTIBUTING.md
-├──SECURITY.md
-├── backlog.txt                                # backlog Topic
-├── licence
-└── README.md                                  # Main overview
+├── CONTRIBUTING.md
+├── SECURITY.md
+├── backlog.txt               # Backlog topics
+├── LICENSE
+└── README.md                 # Main overview
 ```
